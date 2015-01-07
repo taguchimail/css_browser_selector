@@ -1,6 +1,6 @@
 {
   "name": "taguchi-css_browser_selector",
-  "version": "0.1.0",
+  "version": "0.2.1",
   "homepage": "https://github.com/taguchimail/css_browser_selector",
   "authors": [
     "Rafael Lima (http://rafael.adm.br)"
@@ -15,10 +15,16 @@
   ],
   "license": "http://creativecommons.org/licenses/by/2.5/",
   "ignore": [
-    "**/.*",
-    "node_modules",
-    "bower_components",
-    "test",
-    "tests"
+    "css",
+    "img",
+    "*.html",
+    "*.json",
+    "README.md",
+    "crossdomain.xml",
+    "favicon.ico",
+    "js/main.js",
+    "js/plugins.js",
+    "js/vendor/bootstrap.js",
+    "js/vendor/*.min.js"
   ]
 }
